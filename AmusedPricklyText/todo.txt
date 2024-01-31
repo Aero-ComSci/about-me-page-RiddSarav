@@ -1,0 +1,7 @@
+- make it so that when you scrol a new paragraph comes up
+
+-openAI wbesite color scheme
+
+- https://github.com/gideonfernandes/modern-portfolio-website/blob/master/dist/index.html
+
+-https://github.com/MdRasen/Modern-Portfolio-Website?tab=readme-ov-file

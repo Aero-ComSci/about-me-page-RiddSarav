@@ -1,0 +1,111 @@
+/* Reset some default styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set background color and font styles */
+body {
+  background-color: #080808; /* Dark background */
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff; /* White text */
+}
+
+/* Create a container for the content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style the header */
+header {
+  text-align: center;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 36px;
+  color: #00ffcc; /* Turquoise accent color */
+}
+
+/* Style the navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #111; /* Dark navbar background */
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.topnav a:hover {
+  background-color: #00ffcc; /* Turquoise hover color */
+  color: #111;
+}
+
+.topnav a.active {
+  background-color: #007bff;
+  color: #111;
+}
+
+/* Style the main content section */
+main {
+  padding: 40px 0;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+/* Style the project cards */
+.project-card {
+  background-color: #1a1a1a; /* Dark project card background */
+  padding: 20px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.project-card:hover {
+  background-color: #080808; /* Darken on hover */
+}
+
+.project-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.project-description {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #cccccc;
+}
+
+/* Style the footer */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #111;
+}
+
+/* Add media queries for responsiveness */
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  .topnav a {
+    font-size: 16px;
+  }
+
+  .project-card {
+    width: 100%;
+  }
+}
